@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VENTURA.EXE | Portal Glitch</title>
+  <meta name="description" content="Portafolio surrealista de Ventura.exe: ruido neón, proyectos imposibles y un guestbook poseído.">
+  <meta property="og:title" content="VENTURA.EXE | Portal Glitch">
+  <meta property="og:description" content="Bienvenido al búnker sensorial de Ventura.exe. No apto para navegadores tímidos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo-spin.gif">
+  <link rel="icon" type="image/x-icon" href="assets/favicon-psycho.ico">
+  <link rel="alternate icon" type="image/gif" href="assets/favicon-psycho.gif">
+  <link rel="preload" as="audio" href="assets/audio-glitch.mid">
+  <link rel="preload" as="image" href="assets/tile-neon-1.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <audio id="bg-audio" src="assets/audio-glitch.mid" preload="auto" loop></audio>
+  <div id="scanline-overlay" aria-hidden="true"></div>
+  <div id="cursor-trail-container" aria-hidden="true"></div>
+
+  <header class="site-header bevel">
+    <div class="logo-area">
+      <img src="assets/logo-spin.gif" alt="Logo giratorio de Ventura.exe" class="logo-img">
+      <div class="title-stack">
+        <span class="hero-name chromatic" data-text="Ventura Ruibal Cancio">Ventura Ruibal Cancio</span>
+        <span class="tagline" aria-live="polite">Estudiante de 4º de Intelixencia Artificial — Universidade de Vigo</span>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#home" class="nav-button bevel">Home</a>
+      <a href="#projects" class="nav-button bevel">Proyectos</a>
+      <a href="#guestbook" class="nav-button bevel">Guestbook</a>
+      <a href="#contact" class="nav-button bevel">Contacto</a>
+    </nav>
+    <div class="header-controls">
+      <button id="calm-toggle" class="control-button bevel" type="button" aria-pressed="false">CALM MODE</button>
+      <button id="mute-toggle" class="control-button bevel" type="button" aria-pressed="false">MUTE</button>
+    </div>
+    <marquee behavior="alternate" scrollamount="4" class="header-marquee" aria-hidden="true">
+      ✶ ALERTA SENSORIAL ✶ DESCARGA BAJO PROPIO RIESGO ✶ PRESIONA F11 PARA MÁS MAGIA ✶
+    </marquee>
+  </header>
+
+  <main>
+    <section id="home" class="section hero-section">
+      <marquee class="hero-marquee" scrollamount="8" aria-label="Mensajes rotatorios">
+        ╔═╗┬┌┬┐┌─┐┬ ┬┬─┐╔═╗ ╔╗ ┬ ┬┌─┐┌─┐┌┬┐ ─► NAVEGACIÓN HIPERSONICA ACTIVADA ◄─ ╔═╗┌─┐┌─┐┬┬┬┬┬
+      </marquee>
+      <div class="hero-layout">
+        <div class="hero-core fake-frame bevel">
+          <h1 id="name" class="hero-title glitch" data-text="Ventura Ruibal Cancio">Ventura Ruibal Cancio</h1>
+          <p id="role" class="hero-role">Estudiante de 4º de Intelixencia Artificial — Universidade de Vigo</p>
+          <p class="hero-subtitle blink">Tagline: <span id="tagline">Apasionado por la tecnología, con especial interés en aprendizaje automático, visión por computador y análisis de datos. Miembro de la asociación estudiantil Auria Technologies (Formula Student).</span></p>
+          <div class="hero-buttons">
+            <a class="hero-btn bevel" href="#projects">Ver proyectos</a>
+            <a class="hero-btn bevel skeuo" href="mailto:venturacancio@gmail.com" data-sound="warp">Contactar</a>
+          </div>
+          <div class="hero-gifs">
+            <img src="assets/flame-chaos.gif" alt="Llamas digitales danzando" class="hero-gif">
+            <img src="assets/glitch-rain.gif" alt="Glitch infinito" class="hero-gif">
+            <img src="assets/planet-orbit.gif" alt="Planeta invasor girando" class="hero-gif">
+          </div>
+        </div>
+        <aside class="hero-side bevel">
+          <div class="monitor">
+            <h2 class="monitor-title chromatic" data-text="NEURO-VIGILIA">NEURO-VIGILIA</h2>
+            <div id="monitor-readout" class="monitor-readout">
+              <div class="monitor-line"><span>CPU</span><strong>666%</strong></div>
+              <div class="monitor-line"><span>GPU</span><strong>999°C</strong></div>
+              <div class="monitor-line"><span>LATENCIA</span><strong>13ms</strong></div>
+              <div class="monitor-line"><span>FLUX</span><strong>∞</strong></div>
+            </div>
+          </div>
+          <div class="fake-iframe bevel">
+            <div class="iframe-bar">
+              <span>VENTURA://OTRAS_DIMENSIONES</span>
+              <span class="dots">◉◉◉</span>
+            </div>
+            <div class="iframe-body">
+              <p>Bienvenido a la interfaz surrealista. Haz clic sin pensar.</p>
+              <img src="assets/under-construction.gif" alt="Under construction eterno">
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <marquee behavior="alternate" scrollamount="5" aria-hidden="true" class="section-marquee">
+        SOBRE MÍ // ERROR 418: SOY UNA TETERA CÓSMICA // SOBRE MÍ // ERROR 418
+      </marquee>
+      <div class="about-wrapper">
+        <div class="about-photo bevel">
+          <div class="golden-frame bevel">
+            <img src="assets/skull-laugh.gif" alt="Retrato surrealista de Ventura.exe">
+          </div>
+        </div>
+        <div class="about-bio bevel">
+          <h2 class="section-title chromatic" data-text="Sobre mí">Sobre mí</h2>
+          <div class="about-lists">
+            <div class="about-block bevel">
+              <h3>Lenguajes de programación</h3>
+              <ul id="programming-languages">
+                <li>Python</li>
+                <li>Java</li>
+                <li>Julia</li>
+                <li>Prolog</li>
+              </ul>
+            </div>
+            <div class="about-block bevel">
+              <h3>Competencias técnicas</h3>
+              <ul id="skills">
+                <li>Machine Learning</li>
+                <li>Ciencia de Datos</li>
+              </ul>
+            </div>
+            <div class="about-block bevel">
+              <h3>Idiomas</h3>
+              <ul id="idiomas">
+                <li>Español (Nativo)</li>
+                <li>Gallego (Nativo)</li>
+                <li>Inglés (Preparación C1, sin título oficial)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section">
+      <div class="about-timeline-grid">
+        <div class="timeline-card bevel">
+          <h3>Formación académica</h3>
+          <ul id="education">
+            <li>
+              <strong>2022 – Actualidad</strong> — Grado en Intelixencia Artificial — ESEI, Universidade de Vigo · <em>Actualmente en 4º curso</em>
+            </li>
+            <li>
+              <strong>2023</strong> — Curso de iniciación en Julia · Curso especializado en lenguaje Julia · <span>Universidade de Vigo</span>
+            </li>
+          </ul>
+        </div>
+        <div class="timeline-card bevel">
+          <h3>Logros y asociaciones</h3>
+          <ul id="achievements">
+            <li>
+              <strong>2025</strong> — AdaByron — Competición de programación · <span>Miembro del primer equipo clasificado en la fase regional.</span>
+            </li>
+            <li>
+              <strong>2025 – Actualidad</strong> — Auria Technologies — Asociación estudiantil · <span>Participación en Formula Student y otros proyectos tecnológicos a nivel internacional.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <marquee scrollamount="7" class="section-marquee" aria-hidden="true">
+        ►► PROYECTOS DESTACADOS EN GITHUB ◄◄
+      </marquee>
+      <div id="projects-grid" class="projects-grid">
+        <p class="project-placeholder">Muy pronto verás una selección fija de proyectos destacados.</p>
+      </div>
+    </section>
+
+    <section id="guestbook" class="section guestbook-section">
+      <marquee behavior="alternate" scrollamount="6" class="section-marquee" aria-hidden="true">
+        ESCRIBE EN EL LIBRO DE VISITAS | SOLO MENSAJES ENERGÉTICOS | SIN SPAM, SOLO GLITCH
+      </marquee>
+      <div class="guestbook-container bevel">
+        <h2 class="section-title chromatic" data-text="GUESTBOOK POSÉIDO">GUESTBOOK POSÉIDO</h2>
+        <form id="guestbook-form" class="guestbook-form" autocomplete="off">
+          <label for="nickname">Nickname</label>
+          <input id="nickname" name="nickname" type="text" required placeholder="NeoCyberBruja">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="3" required placeholder="Deja tu glitch eterno..."></textarea>
+          <div class="guestbook-actions">
+            <button type="submit" class="bevel">Firmar</button>
+            <button type="button" id="purge-button" class="bevel danger">Purga total</button>
+          </div>
+        </form>
+        <div class="guestbook-entries">
+          <h3>Entradas guardadas localmente</h3>
+          <ul id="guestbook-entries"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <marquee scrollamount="9" class="section-marquee invert" aria-hidden="true">
+        CONTACTA A VENTURA RUIBAL CANCIO ░▒▓ EMAIL ▓▒░ ░▒▓ TELÉFONO ▓▒░ ░▒▓ GITHUB ▓▒░
+      </marquee>
+      <div class="contact-grid">
+        <a id="email" href="mailto:venturacancio@gmail.com" class="contact-card bevel skeuo" data-sound="ping">
+          <img src="assets/badge-new.gif" alt="Icono de email" class="contact-icon">
+          <span>Email: venturacancio@gmail.com</span>
+        </a>
+        <a id="phone" href="tel:604034010" class="contact-card bevel skeuo" data-sound="ping">
+          <img src="assets/planet-orbit.gif" alt="Icono de teléfono" class="contact-icon">
+          <span>Teléfono: 604 034 010</span>
+        </a>
+        <div class="contact-card bevel skeuo" data-sound="zap">
+          <img src="assets/under-construction.gif" alt="Icono de ubicación" class="contact-icon">
+          <span id="location">Ubicación: Bergondo, A Coruña</span>
+        </div>
+        <a id="github" href="https://github.com/Ventupentu" class="contact-card bevel skeuo" target="_blank" rel="noopener" data-sound="zap">
+          <img src="assets/error-screen.gif" alt="Icono de GitHub" class="contact-icon">
+          <span>GitHub: https://github.com/Ventupentu</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer bevel">
+    <div class="counter-box">
+      <h2>Hit Counter Ultra Fake</h2>
+      <div id="hit-counter" class="hit-counter" aria-live="polite">000000</div>
+    </div>
+    <div class="footer-badges">
+      <span class="badge badge-800">Best viewed at 800x600</span>
+      <img src="assets/under-construction.gif" alt="Under construction" class="badge-img">
+      <span class="badge badge-html">Powered by HTML + caos</span>
+    </div>
+    <div class="webring">
+      <span>Webring Glitch:</span>
+      <a href="https://example.com/alpha" target="_blank" rel="noopener">◄ Retro Alpha</a>
+      <a href="https://example.com/beta" target="_blank" rel="noopener">Portal Beta</a>
+      <a href="https://example.com/gamma" target="_blank" rel="noopener">Gamma Freak</a>
+      <a href="https://example.com/omega" target="_blank" rel="noopener">Omega</a>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
